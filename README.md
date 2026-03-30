@@ -72,9 +72,25 @@ Pulse-Width Modulation (PWM) applies targeted IR heat *before* the deficit occur
 
 *Термодинамика и IT:* Термодинамической инерцией управляет открытый Edge AI контроллер (ESP32). Интегрируя API погоды, система вычисляет интеграл дефицита энергии и превентивно включает ИК-нагреватели импульсами (ШИМ), не допуская просадки температуры и обеспечивая лучистый КПД, близкий к 100%. Управление осуществляется через современный Tailwind-дашборд.
 
+### 4: Nanocomposite "ThermaTrap" Formulation (Broad Spectrum)
+
+The active selective filter of ATLAS-THERMA utilizes a synergetic nanocomposite material, defined not by a single rigid recipe, but by a functional range of components designed to establish a stable Percolation Threshold ($\Phi_c$) for Far-IR reflection, while maintaining optical clarity.
+
+**A. Polymer Matrix / Binder (Host Material):**
+* **Primary Candidate:** Ethylene-Vinyl Acetate (EVA) сополимеры (high elasticity, agrotechnical grade).
+* **Allowed Alternatives:** Butyl Acrylate, Polyurethane (PU)-based binders, or UV-curing acrylic resins with high adhesion to LDPE/HDPE.
+
+**B. Conductive Functional Filler (The Reflective Network):**
+* **Primary Candidate:** Reduced Graphene Oxide (rGO) with a C/O ratio of >5:1.
+* **Allowed Alternatives:** Highly conductive Carbon Nanotubes (MWCNT), functionalized Graphene Nanoplatelets (GNP), or a blend thereof, designed to form stable, flexible conductive pathways at concentrations of 0.1% – 1.0% wt.
+
+**C. Transparent Conductive Oxide (TCO) Dopant (Transparency/Cost Balance):**
+* **Primary Candidate:** Nanoparticles of Antimony-doped Tin Oxide (ATO) with a particle size of <50 nm.
+* **Allowed Alternatives:** Indium-doped Tin Oxide (ITO), Aluminum-doped Zinc Oxide (AZO), Gallium-doped Zinc Oxide (GZO), or conductive polymer (PEDOT:PSS) designed to enhance transparency and IR-reflection without forming distinct visual absorption centers.
+
 ---
 
-## 4. Production Cost Estimates (Pilot Scale) / Смета Производства (Пилотный Масштаб)
+## 5. Production Cost Estimates (Pilot Scale) / Смета Производства (Пилотный Масштаб)
 
 *Target manufacturing cost per 1 sq.m of finished film. Components sourced at B2B rates.*
 *Целевая себестоимость производства 1 кв.м готовой пленки. Компоненты закупаются по B2B ценам.*
@@ -93,7 +109,7 @@ Pulse-Width Modulation (PWM) applies targeted IR heat *before* the deficit occur
 
 ---
 
-## 5. Core Scientific References / Ключевые Научные Ссылки
+## 6. Core Scientific References / Ключевые Научные Ссылки
 
 1.  **Low-E Film Theory & ATO:** C.G. Granqvist, "Transparent conductors as solar energy materials: A panoramic review," *Solar Energy Materials and Solar Cells*, (Reference on Wien's law application and ATO/ITO properties).
 2.  **rGO Composites for IR Management:** M.H. Al-Saleh et al., "Graphene oxide/polyurethane nanocomposites: Effects of graphene oxide on thermal, mechanical and conductive properties," *Carbon*, (Reference on rGO integration in polymer matrices for thermal control).
