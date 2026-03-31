@@ -144,7 +144,55 @@ Because ATLAS-THERMA uses targeted radiant heat, the energy directly warms the s
 
 ---
 
-## 7. Production Cost Estimates (Pilot Scale) / Смета Производства (Пилотный Масштаб)
+## 7. Advanced Summer Climate Management (The "Smart Shield" Mode)
+### Продвинутое летнее управление климатом (Режим «Умный щит»)
+
+**The Physical Challenge: The Far-IR Trap**
+**Физический вызов: Ловушка дальнего ИК-спектра**
+
+ATLAS-THERMA film is engineered to block Far-Infrared radiation (7000–14000 nm). While this is a breakthrough for winter heat retention, in summer it can create a "Super-Greenhouse" effect, trapping heat reflected from the soil.
+Пленка ATLAS-THERMA спроектирована для блокировки дальнего ИК-излучения (7000–14000 нм). Хотя это прорыв для удержания тепла зимой, летом это может создать эффект «Супер-парника», запирая тепло, исходящее от почвы.
+
+**The Solution: Synergy of ATO Properties + AI Control**
+**Решение: Синергия свойств ATO + ИИ-управление**
+
+ATLAS-THERMA solves this paradox through a dual-action mechanism:
+ATLAS-THERMA решает этот парадокс через механизм двойного действия:
+
+1. **Passive Near-IR Shielding (Пассивное экранирование ближнего ИК):** The Antimony Tin Oxide (ATO) layer acts as a selective filter, reflecting up to 40% of solar thermal energy (Near-IR, 700-2500 nm) back into the atmosphere before it enters the greenhouse, while maintaining 85%+ transparency for PAR-light.
+   *(Слой ATO работает как селективный фильтр, отражая до 40% солнечной тепловой энергии (Ближний ИК) обратно в атмосферу еще до ее попадания в теплицу, сохраняя при этом 85%+ прозрачности для полезного света).*
+
+2. **Active Thermal Evacuation (Активная эвакуация тепла):** To compensate for the high thermal insulation of the film, the ESP32 Edge-Controller activates the "Summer Cycle" logic:
+   *(Чтобы компенсировать высокую теплоизоляцию пленки, Edge-контроллер ESP32 активирует логику «Летнего цикла»):*
+    
+    * **VPD-Driven Fogging:** Using high-pressure misting to drop temperatures by 5-10°C via flash evaporation.
+      *(Туманообразование на основе VPD: использование мелкодисперсного распыления для мгновенного снижения температуры на 5-10°C).*
+    * **Automated Convection:** Managing roof vents to flush trapped Far-IR heat that cannot escape through the high-barrier film.
+      *(Автоматизированная конвекция: управление форточками для сброса запертого теплового излучения, которое не может выйти сквозь барьерную пленку).*
+
+**Conclusion:** The Hardware (Film) provides the shield against solar strikes, while the Software (Controller) prevents internal overheating. This creates an unbreakable "Lock-in": the film is only viable during summer when paired with the ATLAS-THERMA Control System.
+**Вывод:** Аппаратная часть (Пленка) обеспечивает щит от солнечных ударов, а программная часть (Контроллер) предотвращает внутренний перегрев. Это создает неразрывную связь: пленка жизнеспособна летом только в паре с системой управления ATLAS-THERMA.
+
+## 8. Guaranteed Introduction of High-Margin Exotics (Microclimate Sandbox)
+### Гарантированная интродукция высокомаржинальной экзотики (Микроклиматическая песочница)
+
+**The Market Gap:** In severe continental climates, growing premium exotic crops (blueberries, papaya, passion fruit, exotic berries) is financially unviable due to their demand for a strictly narrow temperature/humidity corridor. Minor microclimate fluctuations lead to crop failure.
+**Рыночный разрыв:** В условиях резко континентального климата выращивание премиальных экзотических культур (голубика, папайя, маракуйя, экзотические ягоды) финансово невыгодно из-за их потребности в строго узком коридоре температуры и влажности. Малейшие колебания микроклимата приводят к гибели урожая.
+
+**The ATLAS-THERMA Solution: Precision "Sandbox" Environment**
+**Решение ATLAS-THERMA: Прецизионная среда «Песочница»**
+
+By combining the absolute thermal isolation of the rGO/ATO nanomembrane with the predictive logic of the ESP32 Edge-Controller, ATLAS-THERMA creates an isolated, shock-proof biological capsule.
+Объединяя абсолютную теплоизоляцию наномембраны rGO/ATO с предиктивной логикой Edge-контроллера ESP32, ATLAS-THERMA создает изолированную, защищенную от шоков биологическую капсулу.
+
+* **Surgical Precision (Хирургическая точность):** The slow-PWM algorithm eliminates temperature spikes ("Bang-Bang" effect), maintaining the exact exotic optimum (e.g., constant +24°C) with zero overshooting.
+  *(Алгоритм медленного ШИМ исключает температурные скачки, поддерживая точный экзотический оптимум с нулевым перегревом).*
+* **VPD Lock-in (Удержание VPD):** Automated fogging and venting ensure the Vapor Pressure Deficit never drops below the critical threshold for delicate exotic flowers and pollen.
+  *(Автоматизированное туманообразование и вентиляция гарантируют, что дефицит давления пара (VPD) никогда не выйдет за критические пределы, опасные для нежных цветов и пыльцы экзотов).*
+* **Guaranteed Acclimatization (Гарантированная интродукция):** Farmers can pivot from low-margin standard vegetables to high-ROI exotic berries, knowing the Hardware+Software ecosystem will synthetically replicate subtropical or equatorial conditions year-round, regardless of outside blizzards or heatwaves.
+  *(Фермеры могут переключиться с низкомаржинальных стандартных овощей на экзотические ягоды с высоким ROI, зная, что экосистема аппаратно-программного комплекса синтетически воспроизведет субтропические условия круглый год, независимо от внешних метелей или аномальной жары).*
+
+## 9. Production Cost Estimates (Pilot Scale) / Смета Производства (Пилотный Масштаб)
 
 *Target manufacturing cost per 1 sq.m of finished film. Components sourced at B2B rates.*
 *Целевая себестоимость производства 1 кв.м готовой пленки. Компоненты закупаются по B2B ценам.*
@@ -163,7 +211,7 @@ Because ATLAS-THERMA uses targeted radiant heat, the energy directly warms the s
 
 ---
 
-## 8. FAQ & Common Misconceptions / Частые вопросы и заблуждения
+## 10. FAQ & Common Misconceptions / Частые вопросы и заблуждения
 
 ### Q1: Why not just use standard automotive Athermal Film? 
 ### Вопрос 1: В чем разница между ATLAS-THERMA и обычной автомобильной атермальной пленкой?
@@ -184,7 +232,7 @@ This is the most common misconception. Standard athermal films and the ATLAS-THE
 
 ---
 
-## 9. Core Scientific References / Ключевые Научные Ссылки
+## 11. Core Scientific References / Ключевые Научные Ссылки
 
 1.  **Low-E Film Theory & ATO:** C.G. Granqvist, "Transparent conductors as solar energy materials: A panoramic review," *Solar Energy Materials and Solar Cells*, (Reference on Wien's law application and ATO/ITO properties).
 2.  **rGO Composites for IR Management:** M.H. Al-Saleh et al., "Graphene oxide/polyurethane nanocomposites: Effects of graphene oxide on thermal, mechanical and conductive properties," *Carbon*, (Reference on rGO integration in polymer matrices for thermal control).
